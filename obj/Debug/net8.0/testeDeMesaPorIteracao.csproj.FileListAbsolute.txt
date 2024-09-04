@@ -12,3 +12,4 @@ C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\refint\t
 C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.pdb
 C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.genruntimeconfig.cache
 C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\ref\testeDeMesaPorIteracao.dll
+C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.sourcelink.json
