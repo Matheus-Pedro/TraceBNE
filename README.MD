@@ -22,4 +22,8 @@ Este projeto implementa testes de mesa utilizando a linguagem C#. O código real
    dotnet run
    ```
 
-4. Siga as instruções no console para informar o tamanho do vetor.
+## Tabelas de Referência
+
+- https://docs.google.com/spreadsheets/d/1XipB3ZIBw8UkZMpYaWwvHYc1QzzDljNCNjpN7aPZPSA/edit?usp=sharing
+- https://docs.google.com/spreadsheets/d/1JezdMsMXxQsFC7-amiR7abw1dCTzs6sIo0I1tgI0tj8/edit?usp=sharing
+- https://docs.google.com/spreadsheets/d/1oX1URNENJkuxJTc6cPo4wO2PKuDKpQC8yvjCO18CYYM/edit?usp=sharing

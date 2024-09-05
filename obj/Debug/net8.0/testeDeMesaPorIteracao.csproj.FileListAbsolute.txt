@@ -1,15 +1,30 @@
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.AssemblyInfoInputs.cache
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.AssemblyInfo.cs
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.csproj.CoreCompileInputs.cache
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\bin\Debug\net8.0\testeDeMesaPorIteracao.exe
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\bin\Debug\net8.0\testeDeMesaPorIteracao.deps.json
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\bin\Debug\net8.0\testeDeMesaPorIteracao.runtimeconfig.json
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\bin\Debug\net8.0\testeDeMesaPorIteracao.dll
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\bin\Debug\net8.0\testeDeMesaPorIteracao.pdb
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.dll
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\refint\testeDeMesaPorIteracao.dll
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.pdb
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.genruntimeconfig.cache
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\ref\testeDeMesaPorIteracao.dll
-C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\obj\Debug\net8.0\testeDeMesaPorIteracao.sourcelink.json
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.AssemblyInfoInputs.cache
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.AssemblyInfo.cs
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.csproj.CoreCompileInputs.cache
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/bin/Debug/net8.0/testeDeMesaPorIteracao.exe
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/bin/Debug/net8.0/testeDeMesaPorIteracao.deps.json
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/bin/Debug/net8.0/testeDeMesaPorIteracao.runtimeconfig.json
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/bin/Debug/net8.0/testeDeMesaPorIteracao.dll
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/bin/Debug/net8.0/testeDeMesaPorIteracao.pdb
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.dll
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/refint/testeDeMesaPorIteracao.dll
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.pdb
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.genruntimeconfig.cache
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/ref/testeDeMesaPorIteracao.dll
+C:/Users/matheuscaprioli/Desktop/gitclones/TesteDeMesa/obj/Debug/net8.0/testeDeMesaPorIteracao.sourcelink.json
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/bin/Debug/net8.0/testeDeMesaPorIteracao
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/bin/Debug/net8.0/testeDeMesaPorIteracao.deps.json
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/bin/Debug/net8.0/testeDeMesaPorIteracao.runtimeconfig.json
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/bin/Debug/net8.0/testeDeMesaPorIteracao.dll
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/bin/Debug/net8.0/testeDeMesaPorIteracao.pdb
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.GeneratedMSBuildEditorConfig.editorconfig
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.AssemblyInfoInputs.cache
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.AssemblyInfo.cs
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.csproj.CoreCompileInputs.cache
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.sourcelink.json
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.dll
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/refint/testeDeMesaPorIteracao.dll
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.pdb
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/testeDeMesaPorIteracao.genruntimeconfig.cache
+/home/matheus/Área de trabalho/gitclones/orvall/TraceBNE/obj/Debug/net8.0/ref/testeDeMesaPorIteracao.dll
