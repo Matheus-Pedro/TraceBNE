@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = testeDeMesaPorIteracao
-build_property.ProjectDir = C:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\
+build_property.ProjectDir = c:\Users\matheuscaprioli\Desktop\gitclones\TesteDeMesa\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
