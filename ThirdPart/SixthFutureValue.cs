@@ -1,66 +1,69 @@
 using System;
-using ExerciseNine;
 
 public class SixthTesteDeMesaFutureValue
 {
-    private readonly Instancia Instancia;
+    public double PresentValue { get; private set; }
+    public double InterestRate { get; private set; }
+    public DateTime StartDate { get; private set; }
+    public DateTime EndDate { get; private set; }
+    public DateTime WithdrawalDate { get; private set; }
+    public double WithdrawalAmount { get; private set; }
 
-    public SixthTesteDeMesaFutureValue(Instancia instancia)
+    public SixthTesteDeMesaFutureValue()
     {
-        Instancia = instancia;
+        Console.Write("Informe o Valor Presente: ");
+        PresentValue = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Informe a Taxa de Juros: ");
+        InterestRate = Convert.ToDouble(Console.ReadLine()) / 100; // Convertendo porcentagem para decimal
+        Console.Write("Informe a Data de Início (dd/MM/yyyy): ");
+        StartDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+        Console.Write("Informe a Data de Término (dd/MM/yyyy): ");
+        EndDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+        Console.Write("Informe a Data do Resgate (dd/MM/yyyy): ");
+        WithdrawalDate = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", null);
+        Console.Write("Informe a Quantidade do Resgate: ");
+        WithdrawalAmount = Convert.ToDouble(Console.ReadLine());
     }
 
-    public bool getArgs(double presentValue, double interestRate, int periodOfMonths,
-            int withdrawalMonth, double withdrawalAmount)
+    public void CalculateFutureValue()
     {
-        Instancia.PresentValue = presentValue;
-        Instancia.InterestRate = interestRate;
-        Instancia.PeriodOfMonths = periodOfMonths;
-        Instancia.WithdrawalAmount = withdrawalAmount;
-        Instancia.WithdrawalMonth = withdrawalMonth;
+        double accumulatedIncome = PresentValue;
+        bool wasWithdrawn = false;
 
-        WriteTableFutureValueOfTableWithWithdrawal(Instancia);
-        return true;
-    }
+        DateTime currentDate = StartDate;
 
-    public void CalculateInterestRate(Instancia instancia)
-    {
-        Instancia.InterestRate = instancia.InterestRate / 100;
-    }
+        Console.WriteLine("Data\t\t\tValor Presente\tTaxa de Juros\tRendimento\tRend. Líquida\tRenda Acumulada\tResgate");
 
-    public void WriteHeaderTable()
-    {
-        Console.WriteLine("Valor Presente\t\tMês\tTaxa de Juros\tRendimento\tRend. Líquida\tRenda Acumulada\tResgate");
-    }
-
-    public void WriteBodyTable(Instancia instancia)
-    {
-        Console.WriteLine($"R$ {instancia.PresentValue:F2}\t\t{instancia.Month}\t{instancia.InterestRate * 100:F2}%\t\tR$ {instancia.Income:F2}\t" +
-            $"R$ {instancia.NetIncome:F2}\tR$ {instancia.AcummulatedIncome:F2}\tR$ {instancia.WithdrawalAmountClone:F2}");
-    }
-    public void WriteTableFutureValueOfTableWithWithdrawal(Instancia instancia)
-    {
-        CalculateInterestRate(instancia);
-
-        WriteHeaderTable();
-
-        for (int index = 1; index <= Instancia.PeriodOfMonths; index++)
+        while (currentDate <= EndDate)
         {
-            bool wasWithdrawn = false;
-            if (instancia.Month == instancia.WithdrawalMonth && wasWithdrawn == false)
+            double withdrawalAmountClone = 0;
+
+            // Calcular o número de dias e converter para a fração de um mês
+            TimeSpan timeSpan = currentDate - StartDate;
+            double monthsElapsed = timeSpan.TotalDays / 30.0;
+            double income = accumulatedIncome * Math.Pow(1 + InterestRate, monthsElapsed);
+            double netIncome = income - accumulatedIncome;
+
+            if (currentDate.Date == WithdrawalDate.Date && !wasWithdrawn)
             {
-                instancia.WithdrawalAmountClone = instancia.WithdrawalAmount;
-                instancia.AcummulatedIncome = instancia.PresentValue + instancia.NetIncome - instancia.WithdrawalAmountClone;
-                instancia.PresentValue = instancia.AcummulatedIncome;
-                instancia.Month = 0;
+                withdrawalAmountClone = WithdrawalAmount;
+                accumulatedIncome += netIncome - withdrawalAmountClone;
                 wasWithdrawn = true;
             }
             else
             {
-                instancia.AcummulatedIncome = instancia.PresentValue + instancia.NetIncome;
+                accumulatedIncome += netIncome;
             }
-            WriteBodyTable(instancia);
-            Instancia.Month++;
+
+            Console.WriteLine($"{currentDate:dd/MM/yyyy}\tR$ {PresentValue:F2}\t\t{InterestRate * 100:F2}%\t\tR$ {income:F2}\t" +
+                              $"R$ {netIncome:F2}\tR$ {accumulatedIncome:F2}\tR$ {withdrawalAmountClone:F2}");
+
+            // Avançar um dia
+            currentDate = currentDate.AddMonths(1);
+
+            // Atualizar o valor presente para o próximo cálculo
+            PresentValue = accumulatedIncome;
         }
     }
 }
+

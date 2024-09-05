@@ -1,13 +1,7 @@
 ﻿using System;
-using ExerciseNine;
 
 class Program
 {
-    private static SixthTesteDeMesaFutureValue? SixthTesteDeMesaFutureValue;
-    public Program(SixthTesteDeMesaFutureValue sixthTesteDeMesaFutureValue)
-    {
-        SixthTesteDeMesaFutureValue = sixthTesteDeMesaFutureValue;
-    }
     static void Main()
     {
         Title.WriteTitle();
@@ -22,7 +16,8 @@ class Program
             "\n- 5) Segundo Teste de Mesa (Parte 2)" +
             "\n- 6) Terceiro Teste de Mesa (Parte 2)" +
             "\n- 7) Quarto Teste de Mesa (Parte 2)" +
-            "\n- 8) Quinto Teste de Mesa (Parte 2)");
+            "\n- 8) Quinto Teste de Mesa (Parte 2)"+
+            "\n- 9) Sexto, Setimo e Oitavo Teste de Mesa (Parte 3)");
             Console.Write(":");
             int numberIndex = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("·············································································");
@@ -57,7 +52,8 @@ class Program
                     Console.WriteLine($"\nO valor presente calculado é: {presentValue:F2}");
                     break;
                 case 9:
-                    SixthTesteDeMesaFutureValue?.getArgs(2000.00, 2.00, 8, 5, 1000.00);
+                    SixthTesteDeMesaFutureValue investment = new SixthTesteDeMesaFutureValue();
+                    investment.CalculateFutureValue();
                     break;
                 default:
                     Console.WriteLine("ERRO: O programa escolhido não foi encontrado, tente outro index.");
